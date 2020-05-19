@@ -10,7 +10,7 @@ app.config["DEBUG"] = True
 
 @app.route("/", methods=['GET'])
 def home():
-	return "<h2> Techtinium Assignment API </h2> <h3> </h3>"
+	return "<h2> Techtinium Assignment API </h2>"
 
 @app.route("/api", methods=['GET'])
 def api():
@@ -26,4 +26,5 @@ def api():
 	result.append(result_dict)
 	return jsonify(result)
 
-app.run()
+if __name__ == "__main__":
+	app.run()
