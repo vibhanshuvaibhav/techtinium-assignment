@@ -1,7 +1,11 @@
 # techtinium-assignment
 Techtinium Python Full Stack Developer Assignment 
 
-To run the programs please ensure Python 3 is installed on your local machine.
+To run the programs please ensure Python 3 and Flask is installed on your local machine.
+
+To install Flask run:
+
+pip3 install Flask
 
 To run the program:
 
